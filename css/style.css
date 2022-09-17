@@ -1,0 +1,15 @@
+h1{
+    color: black;
+    text-align: center;
+    width: 500px;
+    padding: 20px;
+    margin: 0 auto;
+    font-family: 'Special Elite', cursive;
+    font-size: 3em;
+}
+
+body {
+    background: url("../images/jiya_one_month.png") 
+    no-repeat center center fixed;
+    background-size: cover;
+}
