@@ -9,11 +9,64 @@ h1{
 }
 
 body {
-    background: url("../images/jiya_one_month.png") 
-    no-repeat center center fixed;
-    background-size: cover;
+    background-color: #ffffff no-repeat center center fixed;
+    font-family: 'Special Elite', cursive;
 }
 
 i{
     color:rgb(116,192,251)
 }
+
+#page_content{
+	padding:10px;
+	border:None
+}
+
+.navigation{
+	margin:0px 0px 20px;
+	border:#adb1b2 solid 1px;
+	padding:15px 5px;
+	background: skyblue;
+	
+}
+
+.navigation ul{
+	margin:0px;
+	padding:0px;
+}
+
+.navigation ul li{
+	margin:0px;
+	padding:0px 50px;
+	display:inline;
+	font-size:15px;
+	list-style-type:none;
+}
+
+.navigation ul li a{
+	color: black;
+	font-size: 30px;
+	text-decoration:none;
+}
+
+.navigation ul li a:hover{
+	text-decoration:underline;
+}
+
+.navigation ul li:last-child {
+	border-right:none;
+}
+
+img#family{
+    width:330px;
+    height:500px;
+    border: 20px solid;
+
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
